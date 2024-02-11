@@ -1,0 +1,18 @@
+the entire program consist of 3 files. Namely, index.html, style.css and index.js
+to create the sturcture of the webpage, style and making it dynamic.
+
+Breaking the code into 3 distinct parts; header, main, footer.
+
+The header part simply consist of a h1 tag with the text content "Financial Times"
+
+Elements wrap inside the main tag consist of the majority of code for the entire webpage structure.
+
+The first element is the form element that wrap itself around the "Financial Times" banner, and the "search-bar" div
+
+In turn, inside the "search-bar", reside a "magnifier" picture and a input element, with type equals to "text"
+
+A button element followed that when clicked, invoke the function getComments, to display the "body" property value of the 
+
+JSON string.
+
+A table with table, rows(tr) and data(td) elements are created to facilitate the display of the different queries using DOM.

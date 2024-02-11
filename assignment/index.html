@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Financial Times</title>
+  </head>
+  <header>
+    <h1 id="title">Financial Times</h1>
+  </header>
+  <br /><br /><br /><br />
+  <main>
+    <form
+      action=""
+      method="POST"
+      target="_blank"
+      name="search-form"
+      class="search-form"
+    >
+      <picture>
+        <img
+          src="./images/Financial_Times_logo.jpg"
+          alt="search-logo"
+          width="250"
+          height="80"
+        /> </picture
+      ><br />
+      <label for="search"></label>
+      <div class="search-bar">
+        <picture>
+          <a href="#" onclick="searchOps();"
+            ><img
+              src="./images/Magnifier.png"
+              alt="search-favicon"
+              id="main-image"
+          /></a>
+        </picture>
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Enter your search here..."
+          required
+        />
+      </div>
+    </form>
+    <div id="results">
+      <table>
+        <tr>
+          <td id="result" class="display"></td>
+          <td id="email" class="display"></td>
+          <td id="identity" class="display"></td>
+          <td id="content" class="display"></td>
+        </tr>
+      </table>
+      <button type="button" onclick="getComments()">Retrieve Comments</button
+      ><br /><br />
+    </div>
+    <div id="demo"></div>
+  </main>
+  <footer></footer>
+  <body></body>
+</html>
